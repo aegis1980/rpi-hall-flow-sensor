@@ -5,7 +5,7 @@ Library for using Hall sensor flowmeter with RPi GPIO pins.
 Notes
 - Written using Python3+ (includes typing)
 - An 'archived' project so comes as-is. Went in another direction using Arduino rather then RPi - so things might be broken. 
-- Wss written with a **FS400A** in mind (see below *two-a-penny* on AliExpress), but also tested with **YFB10**. Whatever sensor you have, you'll need the *factor* and *offset* from datasheet. Alterntively calibrate yourself by pouring a known volume through over a set period. You'll have to do it at least twice I guess, for two unknowns.  
+- COde was written with a **FS400A** in mind (see below, *two-a-penny* on AliExpress), but also tested with **YFB10** sensor. Whatever sensor you have, you'll need the *factor* and *offset* from datasheet. Alternatively calibrate yourself by pouring a known volume through over a set period. You'll have to do it at least twice I guess for two unknowns.. unless offset is zero I suppose. it is for FS400A.  
 
 ![FS400A](snip.png)
 
